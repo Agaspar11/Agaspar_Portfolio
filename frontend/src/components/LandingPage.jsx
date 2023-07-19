@@ -2,7 +2,6 @@ import React from 'react'
 import AboutPage from './AboutPage';
 import SkillsPage from './SkillsPage';
 import ExperiencePage from './ExperiencePage';
-import ContactPage from './ContactPage';
 import FooterPage from './FooterPage';
 import myLogo from   './img/myLogo.png';
 
@@ -30,7 +29,7 @@ export default function LandingPage() {
   <div className="sidebar-links">
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#about">Skills</a></li>
+      <li><a href="#about">Explore</a></li>
       <li><a href="#skills">Projects</a></li>
       <li><a href="#experience">Visit</a></li>
       <li><a href="#contacts">Contacts</a></li>

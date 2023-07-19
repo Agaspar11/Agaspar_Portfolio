@@ -1,25 +1,15 @@
 import React from 'react'
-import ContactPage from './ContactPage'
+import myLogo from './img/myLogo.png'
+import {FaDiscord, FaEnvelope, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
 
 export default function FooterPage() {
   return (
-    <div className='foot-background'>
+    <div className='foot-background' id='contacts'>
         <div className="foot-content1">
             <div className="foot-content">
-                <div className='foot-list'>
-                    <h2>EMAIL ME</h2>
-                        <form id="mail-form"> 
-                            <div id="form-group"> 
-                            <label for="name" id="name-label"> Message: </label> 
-                            <input type="text" id="name" name="name" placeholder="Message" required></input>
-                            </div> 
-
-                            <div id="form-group"> 
-                            <label for="email" id="email-label"> Email: </label> 
-                            <input type="email" id="email" name="email" placeholder="Enter Your Email" required></input>
-                            </div>
-                        </form>
-                        <button id='btn'>Send</button>
+                <div className='foot-list1'>
+                    <img src={myLogo} alt="" />
+                    <p className='foot-supp'>Your #1 resource for highly customizable and beautiful premium Codes and Designs that’ll help you to attract costumers using your website!</p>
                 </div>
                 <div className="foot-list">
                     <h2>EXPLORE</h2>
@@ -43,7 +33,13 @@ export default function FooterPage() {
                 </div>
                 <div className="foot-list">
                     <h2>VISIT</h2>
-                    <ContactPage />
+                    <div class="contact-info">
+                        <a href="https://www.facebook.com/DLatayada"><i><FaFacebookF /></i></a>
+                        <a href="https://twitter.com/AgasparL"><i><FaTwitter /></i></a>
+                        <a href="https://discord.com/users/1068422943383765013"><i><FaDiscord /></i></a>
+                        <a href="#"><i><FaEnvelope /></i></a>
+                        <a href="https://www.linkedin.com/in/agaspar11/"><i><FaLinkedinIn /></i></a>
+                    </div>
                 </div>
             </div>
             <hr />

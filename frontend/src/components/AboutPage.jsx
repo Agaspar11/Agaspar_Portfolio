@@ -6,7 +6,7 @@ export default function AboutPage() {
     <section id="about">
       <div className="about-links">
         <div className="aboutMe">
-            <img src={me} alt="agaspar" />
+            <img src={me} alt="agaspar" id="profile-image"/>
             <div className="about-container">
               <h2>About</h2>
               <p>
