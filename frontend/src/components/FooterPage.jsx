@@ -24,7 +24,7 @@ export default function FooterPage() {
                 <div className="foot-list">
                     <h2>PROJECTS</h2> 
                     <ul>
-                        <li><a href="#">Afterclass</a></li>
+                        <li><a href="https://after-class-coffee-shop.vercel.app/">Afterclass</a></li>
                         <li><a href="#">CryptoRates</a></li>
                         <li><a href="#">Tic Tac Toe</a></li>
                         <li><a href="#">Dictionary</a></li>
